@@ -9,8 +9,10 @@ const ameliaUrl = jsonData.ameliaUrl
 const originUrl = jsonData.originUrl
 
 const params = new URLSearchParams(window.location.search); //parse params
-const q = params.get("q"); //get q param
-console.log(q)
+const ucid = params.get("ucid"); //get ucid param
+const userid = params.get("userid"); //get userid param
+console.log(ucid)
+console.log(userid)
 
 document.addEventListener("load", createFrame());
 
