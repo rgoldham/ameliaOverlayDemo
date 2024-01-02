@@ -10,12 +10,12 @@ data.innerText = JSON.stringify(data, null, 2);
 let jsonData = JSON.parse(data.innerText)
 
 let url = new URL(jsonData.chatUrl);
-let params = url.searchParams;
+let qparams = url.searchParams;
 if (ucid) {
-    params.set('attrib_ucid', ucid);
+    qparams.set('attrib_ucid', ucid);
 }
 if (userid) {
-    params.set('attrib_userid', userid);
+    qparams.set('attrib_userid', userid);
 }
 
 
