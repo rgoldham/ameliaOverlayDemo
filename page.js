@@ -1,8 +1,6 @@
 const params = new URLSearchParams(window.location.search); //parse params
 const ucid = params.get("ucid"); //get ucid param
 const userid = params.get("userid"); //get userid param
-console.log(ucid)
-console.log(userid)
 
 import data from './properties.json' assert {type: 'json'};
 console.log(data)
@@ -22,6 +20,7 @@ if (userid) {
 const url = jsonData.parentUrl
 //const chatUrl = jsonData.chatUrl
 const chatUrl = qurl.toString()
+console.log(chatUrl)
 const ameliaUrl = jsonData.ameliaUrl
 const originUrl = jsonData.originUrl
 
