@@ -9,8 +9,8 @@ console.log(data)
 data.innerText = JSON.stringify(data, null, 2);
 let jsonData = JSON.parse(data.innerText)
 
-let url = new URL(jsonData.chatUrl);
-let qparams = url.searchParams;
+let qurl = new URL(jsonData.chatUrl);
+let qparams = qurl.searchParams;
 if (ucid) {
     qparams.set('attrib_ucid', ucid);
 }
@@ -21,7 +21,7 @@ if (userid) {
 
 const url = jsonData.parentUrl
 //const chatUrl = jsonData.chatUrl
-const chatUrl = url.toString()
+const chatUrl = qurl.toString()
 const ameliaUrl = jsonData.ameliaUrl
 const originUrl = jsonData.originUrl
 
