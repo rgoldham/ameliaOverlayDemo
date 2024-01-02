@@ -8,6 +8,10 @@ const chatUrl = jsonData.chatUrl
 const ameliaUrl = jsonData.ameliaUrl
 const originUrl = jsonData.originUrl
 
+const params = new URLSearchParams(window.location.search); //parse params
+const q = params.get("q"); //get q param
+console.log(q)
+
 document.addEventListener("load", createFrame());
 
 document.getElementById('chatOverlayInputSubmit').addEventListener('click', function () {
