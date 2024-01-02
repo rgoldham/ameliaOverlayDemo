@@ -1,7 +1,7 @@
 {
   "originUrl": "https://dcs.ap.demo.amelia.com",
-  "ameliaUrl": "https://dcs.ap.demo.amelia.com/Amelia/ui/DCS/chat?attrib_ucid=1&attrib_userid=4444",
-  "chatUrl": "https://dcs.ap.demo.amelia.com/Amelia/ui/DCS/chat?attrib_ucid=1&attrib_userid=4444",
+  "ameliaUrl": "https://dcs.ap.demo.amelia.com/Amelia/ui/DCS/chat",
+  "chatUrl": "https://dcs.ap.demo.amelia.com/Amelia/ui/DCS/chat",
   "parentUrl": "https://www.revenue.nsw.gov.au/help-centre/online-services/land-tax-online",
   "actions": {
     "nav_conga-sign": {
