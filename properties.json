@@ -2,16 +2,13 @@
   "originUrl": "https://dcs.ap.demo.amelia.com",
   "ameliaUrl": "https://dcs.ap.demo.amelia.com/Amelia/ui/DCS/chat",
   "chatUrl": "https://dcs.ap.demo.amelia.com/Amelia/ui/DCS/chat",
-  "parentUrl": "https://www.revenue.nsw.gov.au/help-centre/online-services/land-tax-online",
+  "parentUrl": "https://www.revenue.nsw.gov.au",
   "actions": {
-    "nav_conga-sign": {
-      "url": "https://conga.com/products/esignature/conga-sign"
+    "nav_land-tax": {
+      "url": "https://www.revenue.nsw.gov.au/help-centre/online-services/land-tax-online"
     },
-    "nav_conga-composer": {
-      "url": "https://conga.com/products/conga-composer"
-    },
-    "nav_salesforce-optimizations": {
-      "url": "https://conga.com/products/salesforce-optimizations"
+    "nav_home-page": {
+      "url": "https://www.revenue.nsw.gov.au"
     }
   }
 }
