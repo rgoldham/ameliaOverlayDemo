@@ -9,6 +9,9 @@
     },
     "nav_home-page": {
       "url": "https://www.revenue.nsw.gov.au"
+    },
+    "nav_fine-page": {
+      "url": "https://www.service.nsw.gov.au/transaction/nominate-someone-else-for-a-fine"
     }
   }
 }
