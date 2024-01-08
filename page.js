@@ -1,6 +1,7 @@
 const params = new URLSearchParams(window.location.search); //parse params
 const ucid = params.get("ucid"); //get ucid param
 const userid = params.get("userid"); //get userid param
+const language = params.get("language"); //get language param
 
 import data from './properties.json' assert {type: 'json'};
 console.log(data)
@@ -15,7 +16,9 @@ if (ucid) {
 if (userid) {
     qparams.set('attrib_userid', userid);
 }
-
+if (language) {
+    qparams.set('language', language);
+}
 
 const url = jsonData.parentUrl
 //const chatUrl = jsonData.chatUrl
